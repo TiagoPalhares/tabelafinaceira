@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Registro de Usuário</title>
+</head>
+
+<body>
+    <form>
+        <h1>Cadastro de Usuário</h1>
+        <div class="form-field">
+            <label id="labelNome" for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome" />
+        </div>
+        <div class="form-field">
+            <label id="labelUsuario" for="usuario">Nome de Usuario</label>
+            <input type="text" id="usuario" placeholder="Usuario" />
+        </div>
+        <div class="form-field">
+            <label id="labelEmail" for="email">Email</label>
+            <input type="email" id="email" placeholder="seu@email.com" />
+        </div>
+        <div class="form-field"">
+            <div><label id="labelSenha" for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Senha" />
+            <span id="verSenha" class="material-symbols-outlined" aria-hidden="true">visibility</span>
+        </div>
+        <div class="form-field"">
+            <div><label id="labelConfirmSenha" for="ConfirmSenha">Confirmar Senha</label>
+            <input type="password" id="ConfirmSenha" placeholder="Senha" />
+            <span id="verConfirmSenha" class="material-symbols-outlined" aria-hidden="true">visibility</span>
+        </div>
+        <div>
+            <button type="button" class="solid" id="register-button" onclick="cadastrar()">Cadastrar</button>
+        </div>
+        <div>
+            <button type="button" class="solid" id="cancel-button" onclick="cancelar()">Cancelar</button>
+        </div>
+      
+    </form>
+    
+</body>
+
+<link rel="stylesheet" href="CSS/register.css" />
+
+
+<script src="JS/register.js"></script>
+
+
+
+</html>
